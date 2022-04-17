@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{550D9BA7-5656-4902-B410-634D334EBB53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1FE71E71-B335-4BAD-A209-1C38D72ADCAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roofiy.Shared.Abstractions", "src\Shared\Roofiy.Shared.Abstractions\Roofiy.Shared.Abstractions.csproj", "{0D4DE8E9-C8B6-4576-9829-9F8B52B9449B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roofiy.Shared.Infrastructure", "src\Shared\Roofiy.Shared.Infrastructure\Roofiy.Shared.Infrastructure.csproj", "{BE95C8E7-9E32-4795-BCDC-A1FEE10671B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{EC224111-C99E-4EA4-9E38-12CB66C41759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roofiy.Bootstrapper", "src\Bootstrapper\Roofiy.Bootstrapper\Roofiy.Bootstrapper.csproj", "{37709452-7E08-43AE-830A-73F69E2AB31A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F14EF44A-208D-4935-BD40-436CC21B760D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{46684982-B24C-4BA0-980E-C996CE60BB27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roofiy.Modules.Users.Api", "src\Modules\Users\Roofiy.Modules.Users.Api\Roofiy.Modules.Users.Api.csproj", "{4221C5F4-F966-4C99-9049-BA83A5CB9BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roofiy.Modules.Users.Core", "src\Modules\Users\Roofiy.Modules.Users.Core\Roofiy.Modules.Users.Core.csproj", "{6BD41337-65E4-4542-93C4-8261BF6A9CE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D4DE8E9-C8B6-4576-9829-9F8B52B9449B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4DE8E9-C8B6-4576-9829-9F8B52B9449B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4DE8E9-C8B6-4576-9829-9F8B52B9449B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4DE8E9-C8B6-4576-9829-9F8B52B9449B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE95C8E7-9E32-4795-BCDC-A1FEE10671B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE95C8E7-9E32-4795-BCDC-A1FEE10671B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE95C8E7-9E32-4795-BCDC-A1FEE10671B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE95C8E7-9E32-4795-BCDC-A1FEE10671B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37709452-7E08-43AE-830A-73F69E2AB31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37709452-7E08-43AE-830A-73F69E2AB31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37709452-7E08-43AE-830A-73F69E2AB31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37709452-7E08-43AE-830A-73F69E2AB31A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4221C5F4-F966-4C99-9049-BA83A5CB9BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4221C5F4-F966-4C99-9049-BA83A5CB9BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4221C5F4-F966-4C99-9049-BA83A5CB9BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4221C5F4-F966-4C99-9049-BA83A5CB9BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD41337-65E4-4542-93C4-8261BF6A9CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD41337-65E4-4542-93C4-8261BF6A9CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD41337-65E4-4542-93C4-8261BF6A9CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD41337-65E4-4542-93C4-8261BF6A9CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FE71E71-B335-4BAD-A209-1C38D72ADCAD} = {550D9BA7-5656-4902-B410-634D334EBB53}
+		{0D4DE8E9-C8B6-4576-9829-9F8B52B9449B} = {1FE71E71-B335-4BAD-A209-1C38D72ADCAD}
+		{BE95C8E7-9E32-4795-BCDC-A1FEE10671B8} = {1FE71E71-B335-4BAD-A209-1C38D72ADCAD}
+		{EC224111-C99E-4EA4-9E38-12CB66C41759} = {550D9BA7-5656-4902-B410-634D334EBB53}
+		{37709452-7E08-43AE-830A-73F69E2AB31A} = {EC224111-C99E-4EA4-9E38-12CB66C41759}
+		{F14EF44A-208D-4935-BD40-436CC21B760D} = {550D9BA7-5656-4902-B410-634D334EBB53}
+		{46684982-B24C-4BA0-980E-C996CE60BB27} = {F14EF44A-208D-4935-BD40-436CC21B760D}
+		{4221C5F4-F966-4C99-9049-BA83A5CB9BE6} = {46684982-B24C-4BA0-980E-C996CE60BB27}
+		{6BD41337-65E4-4542-93C4-8261BF6A9CE2} = {46684982-B24C-4BA0-980E-C996CE60BB27}
+	EndGlobalSection
+EndGlobal
